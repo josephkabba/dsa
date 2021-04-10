@@ -4,14 +4,14 @@ const path = [
         subpath: [
             {
                 title: "Overview",
-                path: "/overview"
+                path: "/"
             },
         ]
     },
     {
         heading: "Topics",
         subpath: [
-           
+
         ]
     },
     {

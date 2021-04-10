@@ -2,6 +2,7 @@ import Siderbar from "../Sidebar/Sidebar";
 import Nav from "../Nav/Nav";
 import { useRef } from "react";
 import Footer from "../Footer/Footer";
+import Overview from "../home/Overview";
 
 function Dashboard({ context, Component }) {
 
@@ -30,7 +31,7 @@ function Dashboard({ context, Component }) {
                 <Siderbar context={context} />
             </div>
             <div id="component" ref={componentRef} className="ease-in-out ml-60 p-5">
-                {Component ? <Component /> : <h1>No component</h1>}
+                {Component ? <Component /> : <Overview />}
                 <div className="bottom-0">
                     <Footer />
                 </div>
