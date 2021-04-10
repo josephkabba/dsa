@@ -13,14 +13,11 @@ function App() {
     <>
       <Router>
         <Switch>
-          <Route path="/overview">
+          <Route path="/">
             <Dashboard context={null} Component={Overview} />
           </Route>
           <Route path="/creators">
             <Dashboard context={null} Component={Creators} />
-          </Route>
-          <Route path="/">
-            <Dashboard context={null} Component={null} />
           </Route>
         </Switch>
       </Router>
