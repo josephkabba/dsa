@@ -4,7 +4,7 @@ import { useRef } from "react";
 import Footer from "../Footer/Footer";
 import Overview from "../home/Overview";
 
-function Dashboard({ context, Component }) {
+function Dashboard({ context, Component, data }) {
 
     const sidebarRef = useRef(null);
     const componentRef = useRef(null);
@@ -12,9 +12,14 @@ function Dashboard({ context, Component }) {
     //this function is statefull
     const stateCallBack = (navState = true) => {
 
+
+
         if (navState) {
             sidebarRef.current.style.width = "15rem";
-            componentRef.current.style.marginLeft = "15rem";
+
+            if (window.innerWidth >= 700) {
+                componentRef.current.style.marginLeft = "15rem";
+            }
         } else {
             sidebarRef.current.style.width = "0rem";
             componentRef.current.style.marginLeft = "0rem";
@@ -30,8 +35,8 @@ function Dashboard({ context, Component }) {
             <div id="sidebar" ref={sidebarRef} className="w-60 fixed max-h-full bottom-0 top-14 left-0 overflow-x-hidden z-10 bg-white shadow" >
                 <Siderbar context={context} />
             </div>
-            <div id="component" ref={componentRef} className="ease-in-out ml-60 p-5">
-                {Component ? <Component /> : <Overview />}
+            <div id="component" ref={componentRef} className="ease-in-out md:ml-60 p-5">
+                {Component ? <Component data={data} /> : <Overview />}
                 <div className="bottom-0">
                     <Footer />
                 </div>

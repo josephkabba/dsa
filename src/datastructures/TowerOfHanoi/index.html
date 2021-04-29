@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TOWER OF HANOI</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header id="header">
+             <p>TOWER OF HANOI</p>
+
+        </header>
+        <hr>
+    <script>
+    function timedRefresh(timeoutPeriod){
+        setTimeout("location.reload(true);", timeoutPeriod)
+    }
+    </script>
+
+    <div id="canvas">
+        <div class="moves"></div>
+        <br>
+        <br>
+        <div id="towers">
+            <div class="t" value="0">
+                <ul id="t1" value="0" class="base">
+                    <ul class="line1" id="l1"></ul>
+                </ul>
+                <p style="color: black; margin-left: 108px; font-size: 25px">0</p>
+            </div>
+            <div class="t" value="1">
+                <ul id="t2" value="1" class="base">
+                    <ul class="line2" id="l2"></ul>
+                </ul>
+                <p style="color: black; margin-left: 108px; font-size: 25px">1</p>
+            </div>
+            <div class="t" value="2">
+                <ul id="t3" value="2" class="base">
+                    <ul class="line3" id="l3">
+
+                    </ul>
+                </ul>
+                <p style="color: black; margin-left: 108px; font-size: 25px">2</p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="bar" id="discno">
+            Enter Number of discs: <input type="number" id="discnoBox" max="7" >
+        </div>
+        <div class="bar" id="startBarId">
+            Enter Start Bar: <input type="number" id="startBox" max="2" >
+        </div>
+        <div class="bar" id="auxBarId">
+            Enter Auxillary Bar: <input type="number" id="auxBox" max="2" >
+        </div>
+        <div class="bar" id="destBarId">
+            Enter Destination Bar: <input type="number" id="destBox" max="2" >
+        </div>
+        <br>
+        <br>
+        <div id="start">
+           <!-- <a href="javascript:timedRefresh(1000)"> -->
+            <button type="button" class="buttons">
+                Start
+            </button>
+        </div>
+        <script src="https:cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="toh.js"></script>
+        
+    </div>
+</body>
+
+</html>

@@ -25,8 +25,9 @@ function SamplePrevArrow(props) {
 function ImageContainer({ imageList }) {
 
     const settings = {
-        dots: true,
+        dots: false,
         infinite: true,
+        autoplay: false,
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -38,9 +39,9 @@ function ImageContainer({ imageList }) {
     return (<div className="p-8">
         <Slider {...settings}>
             {imageList.map((element, key) =>
-            (<div key={element} className="h-96">
-                <div className="flex flex-col justify-items-center">
-                    <img src={element} alt="" className="h-96 object-contain" />
+            (<div key={element}>
+                <div className="flex flex-wrap justify-items-center">
+                    <img src={element} alt="" className="h-96 w-full object-contain" />
                 </div>
             </div>))}
         </Slider>
