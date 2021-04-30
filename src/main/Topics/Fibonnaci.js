@@ -1,8 +1,8 @@
 import { useState } from "react";
-import fact from "../../datastructures/factorial/factorial";
+import fib from "../../datastructures/fibonnaci/fibonnaci";
 
 
-function Factorial() {
+function Fibonnaci() {
 
     const [Value, setValue] = useState(0);
     const [Result, setResult] = useState(0);
@@ -19,7 +19,7 @@ function Factorial() {
 
     const submit = (e) => {
         e.preventDefault();
-        const result = fact(((Value > 100) ? 0 : Value));
+        const result = fib(((Value > 100) ? 0 : Value));
         setResult(result);
     };
 
@@ -44,4 +44,4 @@ function Factorial() {
     </div>);
 }
 
-export default Factorial;
+export default Fibonnaci;

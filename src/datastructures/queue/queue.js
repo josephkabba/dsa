@@ -1,4 +1,4 @@
-export default function Queue() {
+export default function QueueImpl() {
 
     let items = [];
 
@@ -7,8 +7,9 @@ export default function Queue() {
     };
 
     this.dequeue = () => {
-        if (this.isEmpty())
-            return "QUEUE IS EMPTY";
+        if (this.isEmpty()) {
+            return;
+        }
         return items.shift();
     };
 
@@ -17,8 +18,9 @@ export default function Queue() {
     };
 
     this.front = () => {
-        if (this.isEmpty())
-            return "QUEUE IS EMPTY";
+        if (this.isEmpty()) {
+            return;
+        }
         return items[0];
     };
 
@@ -26,11 +28,7 @@ export default function Queue() {
         return items.length === 0;
     };
 
-    this.printQueue = () => {
-        var str = "";
-        for (var i = 0; i < items.length; i++) {
-            str += items[i] + "  ||  ";
-        }
-        return str;
+    this.allItems = () => {
+        return items;
     };
 }

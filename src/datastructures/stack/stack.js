@@ -1,4 +1,4 @@
-export default function Stack() {
+export default function StackImpl() {
 
     let items = [];
 
@@ -22,11 +22,7 @@ export default function Stack() {
         return items.length;
     };
 
-    this.print = function () {
-        let str = "";
-        for (let i = 0; i < items.length; i++) {
-            str += items[i] + "  ||  ";
-        }
-        return str;
+    this.allItems = function () {
+        return items;
     };
 }

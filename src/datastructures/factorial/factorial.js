@@ -1,4 +1,6 @@
 const fact = (num) => {
+    
+
     if (num === 1) {
         return num;
     }
