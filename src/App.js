@@ -6,7 +6,7 @@ import {
 import Dashboard from "./main/Dashboard/Dashboard";
 import Overview from "./main/home/Overview";
 import Creators from "./main/Creators/Creators";
-import Topics from "./main/Topic/Topics";
+import Topics from "./main/Topics/Topics";
 import mapping from "./mapping";
 
 

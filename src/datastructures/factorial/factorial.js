@@ -5,8 +5,10 @@ const fact = (num) => {
     else if (num < 1) {
         return 0;
     }
-    else
+    else {
         return num * fact(num - 1);
-}
+    }
+
+};
 
 export default fact;

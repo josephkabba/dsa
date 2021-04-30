@@ -1,18 +1,18 @@
-
+import Factorial from "./main/Topics/Factorial";
 
 const mapping = {
     fibonnaci: {
         name: "fibonnaci",
         description: "",
         video: "",
-        impl: null
+        impl: null,
     },
 
     factorial: {
         name: "factorial",
         description: "",
         video: "",
-        impl: null
+        impl: Factorial
     },
 
     towerOfHanoi: {
