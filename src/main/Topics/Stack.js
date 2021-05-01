@@ -7,7 +7,7 @@ function Stack(){
     const [Element, setElement] = useState(null);
     const [Stack, setStack] = useState(null);
     const [StackData, setStackData] = useState({size: 0, topElement: 0, allElements: []});
-
+    
     const createStack = () => {
         if(Stack === null){
             const stk = new StackImpl();

@@ -3,6 +3,7 @@ import Fibonnaci from "./main/Topics/Fibonnaci";
 import Stack from "./main/Topics/Stack";
 import Queue from "./main/Topics/Queue";
 import LinkedList from "./main/Topics/LinkedList";
+import TowerOfHanoi from "./main/Topics/TowerOfHanoi";
 
 const mapping = {
     fibonnaci: {
@@ -23,7 +24,7 @@ const mapping = {
         name: "tower Of hanoi",
         description: "",
         video: "",
-        impl: null
+        impl: TowerOfHanoi
     },
 
     queue: {
