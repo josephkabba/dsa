@@ -6,7 +6,7 @@ function Footer(){
         <hr className="bg-gray-700 rounded-xl h-0.5 w-full" />
 
         <div className="flex flex-col justify-items-center">
-            <p className="text-base text-gray-500">All right recieved | copyright 2021</p>
+            <p className="text-base text-gray-500">All rights recieved | copyright 2021</p>
         </div>
     </div>);
 }

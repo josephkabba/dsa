@@ -28,7 +28,7 @@ function NodeDL(element, next, prev) {
     };
 };
 
-function LinkedListDL() {
+function DoublyLinkedList() {
     this.head = null;
     this.tail = null;
     this.size = 0;
@@ -134,13 +134,10 @@ function LinkedListDL() {
         while (curr) {
             lst.push(curr.element);
             curr = curr.next;
-            if (curr == null) {
-                return;
-            }
         }
         return lst;
     };
 }
 
 
-export default LinkedListDL;
+export default DoublyLinkedList;

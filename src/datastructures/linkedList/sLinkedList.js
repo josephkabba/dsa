@@ -117,9 +117,6 @@ function SinglylinkedList() {
         while (curr) {
             lst.push(curr.element);
             curr = curr.next;
-            if (curr == null) {
-                return;
-            }
         }
         return lst;
     };

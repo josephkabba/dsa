@@ -26,7 +26,7 @@ function Fibonnaci() {
     return (<div className="flex flex-col items-center">
         <h1 className="font-bold text-2xl text-primary capitalize">Enter number</h1>
 
-        <form onSubmit={submit}>
+        <form onSubmit={submit} className="border border-gray-100 rounded shadow p-4">
             <input
                 type="text"
                 id="value"

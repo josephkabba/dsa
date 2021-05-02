@@ -27,7 +27,7 @@ function Topics({ data }) {
         </div>
 
         <div className="w-full bg-white mt-6 p-4 shadow rounded-lg">
-            <h1 className="font-bold text-3xl text-primary">{`Implementation of ${data?.name}`}</h1>
+            <h1 className="font-bold text-2xl text-primary">{`Implementation of ${data?.name}`}</h1>
             <hr className="bg-primary" />
             <div className="mt-4">
                 {data.impl ? <data.impl /> : ""}
