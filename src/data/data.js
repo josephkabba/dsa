@@ -206,10 +206,10 @@ export const creators = [
         personality: `
                 He is the group leader who was incharge of
                 asssigning tasks.
-                He particapted in data collection.
+                He participated in data collection.
                 He gathered the images used in this website
                 and the content on this website.
-                particapted in designing the user interfaces`,
+                participated in designing the user interfaces`,
     },
 
     {
@@ -218,7 +218,7 @@ export const creators = [
         studentNo: "1900700557",
         imageURL: "https://firebasestorage.googleapis.com/v0/b/data-structures-project-93e56.appspot.com/o/IMG-20201210-WA0035%20(2).jpg?alt=media&token=e85b202e-d04f-4846-8580-419c970f5543",
         personality: `
-                He particapted in implementation of alogrithms.
+                He participated in implementation of alogrithms.
                 He gathered the videos used in this
                 website.`,
     },
@@ -230,8 +230,8 @@ export const creators = [
         imageURL: "https://firebasestorage.googleapis.com/v0/b/data-structures-project-93e56.appspot.com/o/WhatsApp%20Image%202021-05-08%20at%205.51.47%20PM.jpeg?alt=media&token=d4410af9-6d51-4e68-971c-301d6500c3a1",
         personality: `
                 He particapted in the implementation of algorithms.
-                He particapted in writing the codes.
-                Particapted in designing the user interfaces.
+                He participated in writing the codes.
+                participated in designing the user interfaces.
                 Hosted the project repository on github.`,
     },
 
@@ -241,7 +241,7 @@ export const creators = [
         studentNo: "1800725554",
         imageURL: "https://firebasestorage.googleapis.com/v0/b/data-structures-project-93e56.appspot.com/o/simon.jpeg?alt=media&token=98617785-e7fd-4ccb-b54d-a3d0575cf0bc",
         personality: `
-                He particapted in implementation of algorithms.
+                He participated in implementation of algorithms.
                 Particapted in writing the codes.`,
     },
 
@@ -250,7 +250,7 @@ export const creators = [
         regNo: "19/U/0122",
         studentNo: "1900700122",
         imageURL: "https://firebasestorage.googleapis.com/v0/b/data-structures-project-93e56.appspot.com/o/DSC_7787.JPG?alt=media&token=1803c487-c8de-4a57-b615-9b5c0757f087",
-        personality: "He particapted in data collection.",
+        personality: "He participated in data collection.",
     },
 
 
@@ -260,19 +260,19 @@ export const creators = [
         studentNo: "1900717693",
         imageURL: "https://firebasestorage.googleapis.com/v0/b/data-structures-project-93e56.appspot.com/o/88b4465222f34c7cb156b58ceadaa912%20(2).jpg?alt=media&token=f8c1ed81-03a6-4438-8a80-c798a8431030",
         personality: `
-                She particapted in data collection.
-                Particapted in designing the user
+                She participated in data collection.
+                participated in designing the user
                 interfaces.`,
     },
 
 
     {
-        name: "NAVUMA WHITNEY",
+        name: "NANVUMA WHITNEY JUDITH",
         regNo: "1 9/U/1186",
         studentNo: "1900701186",
-        imageURL: "",
+        imageURL: "https://firebasestorage.googleapis.com/v0/b/data-structures-project-93e56.appspot.com/o/58c50672-ee90-4e5c-add8-a4e4cecfd271.jpeg?alt=media&token=96e98f94-09af-42ce-b5b7-02b3016c93f2",
         personality: `
-                She particapted in data collection.
+                She participated in data collection.
                 contributed in the project .`,
     },
 ];
