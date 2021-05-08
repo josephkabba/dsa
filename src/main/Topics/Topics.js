@@ -22,7 +22,7 @@ function Topics({ data }) {
         <div className="flex flex-col items-start w-full bg-white p-4 shadow mt-9 mb-6 rounded-lg">
             <h1 className="font-bold text-3xl text-primary ">{`A video about ${data?.name}`}</h1>
             <div className="flex flex-col items-center w-full mt-5">
-                <ReactPlayer className="reactplayer" url={data.video ? data.video : "https://www.youtube.com/watch?v=SoYWu9k1Yek&t=28s"} width="100"/>
+                <ReactPlayer className="reactplayer" url={data.video ? data.video : ""} width="100"/>
             </div>
         </div>
 

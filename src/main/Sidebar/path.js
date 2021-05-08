@@ -34,6 +34,11 @@ const path = [
             {
                 title: "LinkedList",
                 path: "/linked_list"
+            },
+
+            {
+                title: "Download Notes",
+                path: "https://firebasestorage.googleapis.com/v0/b/data-structures-project-93e56.appspot.com/o/Data%20Structure%20WEBSITE.docx?alt=media&token=a889c366-9461-4330-a100-4f567c533bd3"
             }
         ]
     },

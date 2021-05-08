@@ -13,7 +13,7 @@ function Sidebar({ context }) {
                         <h1 className="mb-3 text-lg text-primary font-bold">{heading}</h1>
                         <ul className="list-none">{subpath.map(({ title, path }) => {
                             return (<li className="text-gray-500 pl-2 pt-1 pb-2 focus:text-primary focus:bg-yellow-600 hover:bg-gray-200 rounded-lg" key={path}>
-                                <Link to={{ pathname: path }}>{title}</Link>
+                                {(title === "Download Notes") ? <a href={path} download={path}>{title}</a> : <Link to={{ pathname: path }}>{title}</Link>}
                             </li>);
                         })}</ul>
                         <br />
